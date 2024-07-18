@@ -1,38 +1,127 @@
-.App {
+.main {
   text-align: center;
+  font-family: 'Arial', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.question-card {
+  /* Center the div  */
+  margin: 0 auto;
+  margin-top: 24px;
+
+  /* Dimensions  */
+  width: 80%; /* Can be in percentage also. */
+  height: auto;
+
+  /* Visual  */
+  background-color: #f5f5f5;
+  padding: 24px;
+  border-radius: 16px;
+  color: #333;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 20px, rgba(0, 0, 0, 0.2) 0px 6px 6px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ul {
+  list-style: none;
+  padding: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+li {
+  margin-top: 8px;
+  background-color: #ffffff;
+  padding: 16px;
+  border: 2px solid #007bff;
+  border-radius: 20px;
+  font-size: 20px;
+  transition: background-color 0.3s, color 0.3s;
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+.question-text {
+  color: #007bff;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+/* Final Results  */
+.final-results {
+  /* Center the div  */
+  margin: 0 auto;
+
+  /* Dimensions  */
+  width: 50%; /* Can be in percentage also. */
+  height: auto;
+  margin-top: 64px;
+
+  /* Visual  */
+  background-color: #f5f5f5;
+  padding: 24px;
+  border-radius: 16px;
+  color: #333;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 20px, rgba(0, 0, 0, 0.2) 0px 6px 6px;
+}
+
+button {
+  background-color: #007bff; /* Blue */
+  border: none;
   color: white;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 16px;
+  border-radius: 24px;
+  transition: background-color 0.3s, transform 0.3s;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Additional Styling for Better Appearance */
+h1 {
+  color: #ff007b;
+  font-size: 36px;
+  margin-top: 16px;
+}
+
+h2 {
+  color: #333;
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+
+h3 {
+  color: #666;
+  font-size: 22px;
+}
+
+.final-results ul {
+  text-align: left;
+  padding: 0;
+}
+
+.final-results li {
+  margin-bottom: 8px;
+  background-color: #ffffff;
+  padding: 12px;
+  border: 2px solid #007bff;
+  border-radius: 16px;
+  font-size: 18px;
+}
+
+.final-results li strong {
+  color: #007bff;
+}
+
+.final-results li br {
+  margin-bottom: 4px;
 }
