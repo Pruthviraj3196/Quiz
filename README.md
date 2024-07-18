@@ -12,4 +12,5 @@ A simple quiz application built with React. This application features shuffled q
 ## Demo
 
 You can see a live demo of the application [https://66992790b85f17070818e6c5--playful-ganache-d864de.netlify.app/](#).
+https://66992790b85f17070818e6c5--playful-ganache-d864de.netlify.app/
 
